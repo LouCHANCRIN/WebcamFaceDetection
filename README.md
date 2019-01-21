@@ -16,4 +16,4 @@
 ### Requirements :
 
 * python3.7 (other version might work)
-* opencv
+* OpenCV
