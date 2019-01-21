@@ -12,3 +12,8 @@
 ### Usage :
 
 * python3.7 main.py haarcascade_frontalface_default.xml
+
+### Requirements :
+
+* python3.7 (other version might work)
+* opencv
