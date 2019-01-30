@@ -1,7 +1,7 @@
 import cv2
 import sys
 
-def detectface(path):
+def FaceDetect(path):
     #Load classifier
     cascade = cv2.CascadeClassifier(path)
 
@@ -31,4 +31,4 @@ def detectface(path):
     cv2.destroyAllWindows()
 
 if __name__ == '__main__':
-    detectface(sys.argv[1])
+    FaceDetect(sys.argv[1])
